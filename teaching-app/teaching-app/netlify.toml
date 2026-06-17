@@ -1,0 +1,5 @@
+[build]
+  # 告訴 Netlify 網頁檔案 (index.html 等前端檔案) 就在根目錄
+  publish = "."
+  # 明確告訴 Netlify 我們的後端函式放在哪個資料夾
+  functions = "netlify/functions"
